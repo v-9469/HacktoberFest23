@@ -12,16 +12,16 @@ void printarr(int arr[], int n)
 }
 // q1 swap alternate
 
-// int swapalt(int arr[], int n)
-// {
-//     for (int i = 0; i < n; i += 2)
-//     {
-//         if (i + 1 < n)
-//         {
-//             swap(arr[i], arr[i + 1]);
-//         }
-//     }
-// }
+ int swapalt(int arr[], int n)
+ {
+     for (int i = 0; i < n; i += 2)
+     {
+         if (i + 1 < n)
+         {
+             swap(arr[i], arr[i + 1]);
+         }
+     }
+ }
 // //  q2 find unique number in arr
 // int findunique(int arr[], int n)
 // {
